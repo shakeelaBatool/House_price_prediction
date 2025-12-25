@@ -23,7 +23,7 @@ print("-"*80)
 # Load the dataset
 df = pd.read_csv('house_price_prediction.csv')
 
-print(f"\nDataset Shape: {df.shape}")
+print(f" \nDataset Shape: {df.shape}")
 
 print("\nFirst 5 Records:")
 print(df.head(5))
@@ -1221,3 +1221,4 @@ print("\n="*80)
 # print("\n✅ PROJECT COMPLETED SUCCESSFULLY!")
 
 # print("="*80)
+
