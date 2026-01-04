@@ -73,7 +73,7 @@ numeric_cols = ['avg_income', 'avg_area_house_age', 'avg_area_num_rooms',
                 'avg_bedrooms', 'avg_population', 'price']
 correlation_matrix = df[numeric_cols].corr()
 sns.heatmap(correlation_matrix, annot=True, fmt='.3f', cmap='coolwarm', 
-            square=True, cbar_kws={'shrink': 0.8}, linewidths=2, linecolor='white')
+            square= True, cbar_kws={'shrink': 0.8}, linewidths=2, linecolor='white')
 plt.title('Feature Correlation Heatmap', fontweight='bold', fontsize=14)
 plt.tight_layout()
 plt.savefig('./02_correlation_heatmap.png', dpi=300, bbox_inches='tight')
@@ -1221,4 +1221,5 @@ print("\n="*80)
 # print("\n✅ PROJECT COMPLETED SUCCESSFULLY!")
 
 # print("="*80)
+
 
