@@ -14,7 +14,7 @@ warnings.filterwarnings('ignore')
 
 print("="*80)
 print("HOUSE PRICE PREDICTION - REGRESSION ANALYSIS PROJECT")
-print("="*80)
+print("=" *80)
 # ==============================================================================
 # STEP 1: DATA LOADING AND EXPLORATION
 # ==============================================================================
@@ -1221,5 +1221,6 @@ print("\n="*80)
 # print("\n✅ PROJECT COMPLETED SUCCESSFULLY!")
 
 # print("="*80)
+
 
 
